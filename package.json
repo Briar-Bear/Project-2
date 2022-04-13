@@ -1,0 +1,15 @@
+{
+  "name": "my-project-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/styles.scss:./css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.49.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}

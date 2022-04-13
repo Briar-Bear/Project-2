@@ -1,0 +1,11 @@
+.card {
+  background-color: white;
+
+  &.card--tall {
+    height: 100%;
+  }
+
+  &__body {
+    padding: 5px;
+  }
+}
