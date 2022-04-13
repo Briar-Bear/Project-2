@@ -219,6 +219,10 @@ ul {
     gap: 100px;
 }
 
+.dessets {
+  margin-bottom: 30px;
+}
+
 .order-btn {
   display: flex;
   justify-content: center;
