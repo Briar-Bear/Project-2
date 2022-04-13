@@ -184,3 +184,10 @@
 ul {
   list-style: none;
 }
+
+
+/**palette.html**/
+
+.palette-img {
+  width: 100%;
+}
