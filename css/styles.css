@@ -218,3 +218,8 @@ ul {
   display: flex;
     gap: 100px;
 }
+
+.order-btn {
+  display: flex;
+  justify-content: center;
+}
