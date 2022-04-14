@@ -186,25 +186,25 @@ ul {
 }
 
 
-/**palette.html**/
+/**menu's**/
 
-.palette-img {
+.header-img {
   width: 100%;
 }
 
-.palette-bg-grey {
+.menu-bg-grey {
   width: 100%;
   background-color: #f1f1f1;
 }
 
-.palette-food {
+.menu-food {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
 
-.palette-menu {
+.main-menu {
   display: flex;
   padding: 8px 14px;
   text-decoration: none;
