@@ -1,11 +1,24 @@
-.card {
-  background-color: white;
+.card-img {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  object-fit: cover;
+}
 
-  &.card--tall {
-    height: 100%;
-  }
+.card-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0px 0px 10px 10px;
+}
 
-  &__body {
-    padding: 5px;
-  }
+.card-title {
+  font-weight: bold;
+  margin: 0;
+}
+.card-text {
+  margin: 0;
+  font-weight: normal;
+  font-size: small;
+  font: black;
 }
