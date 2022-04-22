@@ -9,6 +9,11 @@
   background: linear-gradient(0deg, #9356dc 0%, #ff79da 50%);
 }
 
+.location {
+  display: flex;
+  justify-content: center;
+}
+
 .card {
   background-color: white;
 }
