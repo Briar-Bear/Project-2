@@ -158,6 +158,10 @@ ul {
   box-shadow: 0px 3px #c1c1c1;
 }
 
+.header-img {
+  width: 100%;
+}
+
 .logo {
   display: flex;
   justify-content: center;
