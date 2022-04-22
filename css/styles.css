@@ -75,6 +75,29 @@
   margin-bottom: 15px;
 }
 
+.bottom-column {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.menu-items {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bottom-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .card-img {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
