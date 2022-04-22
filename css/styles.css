@@ -4,7 +4,8 @@
   padding: 8px 14px;
   text-decoration: none;
   border-radius: 5px;
-  background-color: #FF79DA;
+  background: rgb(147,86,220);
+  background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 50%);
 }
 
 .card {
