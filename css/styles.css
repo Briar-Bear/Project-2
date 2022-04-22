@@ -153,6 +153,11 @@ ul {
   background-color: black;
 }
 
+.menu-bg-grey {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
 .logo-img {
   width: 100%;
   box-shadow: 0px 3px #c1c1c1;
