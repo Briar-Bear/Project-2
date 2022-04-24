@@ -14,6 +14,11 @@
   justify-content: center;
 }
 
+.body {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
 .location {
   display: flex;
   justify-content: center;
@@ -152,7 +157,7 @@ ul {
 }
 
 .bg-black {
-  background-color: black;
+  background-color: #424141;
 }
 
 .menu-bg-grey {
