@@ -73,6 +73,18 @@
     justify-content: space-between;
   }
 
+  .number {
+    display: flex;
+    order: 1;
+    border: solid $primary-colour 2px;
+    border-radius: 50px;
+    background-color: $primary-colour;
+    color: white;
+    margin-left: -25px;
+  }
+
+
+
 .column {
     display: flex;
     flex-direction: column;

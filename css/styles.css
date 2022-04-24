@@ -85,6 +85,16 @@
   justify-content: space-between;
 }
 
+.number {
+  display: flex;
+  order: 1;
+  border: solid #9356DC 2px;
+  border-radius: 50px;
+  background-color: #9356DC;
+  color: white;
+  margin-left: -25px;
+}
+
 .column {
   display: flex;
   flex-direction: column;
