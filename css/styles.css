@@ -135,10 +135,18 @@ ul {
   list-style: none;
 }
 
+.card-txt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .card-img {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
   object-fit: cover;
+  height: 225px;
 }
 
 .card-body {
