@@ -19,6 +19,10 @@
   font-family: "Roboto", "Shrikhand", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .location {
   display: flex;
   justify-content: center;
