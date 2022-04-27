@@ -222,6 +222,9 @@ ul {
 .menu-bg-grey {
   width: 100%;
   background-color: #f1f1f1;
+  position: relative;
+  bottom: 72px;
+  border-radius: 45px;
 }
 
 .logo-img {
