@@ -79,12 +79,16 @@ a {
   .number {
     display: flex;
     order: 1;
-    border: solid $primary-colour 2px;
+    border: solid #9356DC 2px;
+    height: 15px;
+    width: 15px;
     border-radius: 50px;
-    background-color: $primary-colour;
+    background-color: #9356DC;
     color: white;
     margin-left: -29px;
-    padding: 5px
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
   }
 
 
