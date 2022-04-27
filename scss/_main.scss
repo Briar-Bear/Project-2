@@ -96,7 +96,7 @@ a {
  
 
 .restaurant {
-  display: flex;
+  display: block;
   flex-direction: column;
   align-self: center;
   border-radius: 10px;
@@ -108,8 +108,17 @@ a {
 
 #new {
   position: relative;
-  top: 10px;
+  bottom: 210px;
   right: 10px;
+  border: 2px solid;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  float: right;
+  background-color: $tertiary-colour;
+  border-color: $tertiary-colour;
+  color: green;
+  width: 15%;
 }
 
 

@@ -106,7 +106,7 @@ a {
 }
 
 .restaurant {
-  display: flex;
+  display: block;
   flex-direction: column;
   align-self: center;
   border-radius: 10px;
@@ -118,8 +118,17 @@ a {
 
 #new {
   position: relative;
-  top: 10px;
+  bottom: 210px;
   right: 10px;
+  border: 2px solid;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  float: right;
+  background-color: #99E2D0;
+  border-color: #99E2D0;
+  color: green;
+  width: 15%;
 }
 
 .bottom-column {
