@@ -116,6 +116,12 @@ a {
   margin-bottom: 15px;
 }
 
+#new {
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
 .bottom-column {
   display: flex;
   flex-direction: column;
