@@ -283,6 +283,10 @@ ul {
   width: 85%;
 }
 
+.menu-courses {
+  text-decoration: underline 2px solid #99E2D0;
+}
+
 .menu-food {
   display: flex;
   flex-direction: column;
