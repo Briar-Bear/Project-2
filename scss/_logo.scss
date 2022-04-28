@@ -10,6 +10,11 @@
     
   }
 
+  .logo-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .logo-img-small {
     filter: invert(100%);
     -webkit-filter: invert(100%);
