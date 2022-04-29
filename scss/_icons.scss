@@ -8,17 +8,28 @@
 
   .fa-mobile-screen-button {
     padding: 0px 20px;
+    color: #777575;
   }
   
 
  .fa-bars {
   padding: 0px 20px;
+  color: #777575;
  }
 
  .fa-store {
   padding: 0px 20px;
+  color: #777575;
  }
 
  .fa-solid:active {
    color: $primary-colour;
+ }
+
+ .fa-utensils {
+   padding: 10px
+ }
+
+ .fa-handshake-angle {
+   padding: 7px;
  }

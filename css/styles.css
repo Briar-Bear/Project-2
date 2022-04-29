@@ -84,17 +84,17 @@ a {
   width: 50px;
 }
 
-.bottom-column {
+.footer-container {
   display: flex;
-  flex-direction: column;
+}
+
+.bottom-column {
   padding-left: 15px;
   padding-top: 15px;
 }
 
 .menu-items {
-  display: flex;
   padding: 0;
-  flex-direction: column;
   gap: 5px;
 }
 
@@ -121,11 +121,8 @@ ul {
 .card-txt {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
   margin: 0;
-  font-weight: normal;
-  font-size: small;
   color: black;
 }
 .card-img {
@@ -150,6 +147,7 @@ ul {
 
 .bg-black {
   background-color: #424141;
+  width: 100%;
 }
 
 .menu-bg-grey {
@@ -203,18 +201,29 @@ ul {
 
 .fa-mobile-screen-button {
   padding: 0px 20px;
+  color: #777575;
 }
 
 .fa-bars {
   padding: 0px 20px;
+  color: #777575;
 }
 
 .fa-store {
   padding: 0px 20px;
+  color: #777575;
 }
 
 .fa-solid:active {
   color: #9356DC;
+}
+
+.fa-utensils {
+  padding: 10px;
+}
+
+.fa-handshake-angle {
+  padding: 7px;
 }
 
 .menu-container {
@@ -271,7 +280,7 @@ ul {
   gap: 15px;
 }
 .list-group .list-group-item {
-  padding: 15px 14px;
+  padding: 20px 14px;
   border-radius: 25px;
   border: solid #f1f1f1 3px;
   background-color: #f1f1f1;
@@ -303,6 +312,10 @@ ul {
 .font {
   font-weight: 300;
   font-size: 20px;
+}
+
+.font-small {
+  font-weight: 300;
 }
 
 /*!
