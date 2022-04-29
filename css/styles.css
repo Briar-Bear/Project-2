@@ -8,6 +8,7 @@
   color: #fff;
   background: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
   box-shadow: 6px 7px 7px 0px #d9d9d9;
+  margin-bottom: 50px;
 }
 
 .order-btn {
@@ -36,6 +37,7 @@ a {
   justify-content: center;
   gap: 20px;
   padding: 15px;
+  background: #d9d9d9;
 }
 
 .choice-container {
@@ -52,6 +54,7 @@ a {
 
 .rest-title {
   margin-left: 20px;
+  padding-top: 20px;
 }
 
 .restaurant {
@@ -142,15 +145,6 @@ ul {
 }
 
 .bg-grey {
-  background-color: #d9d9d9;
-}
-
-.bg-lightgrey {
-  background-color: #f1f1f1;
-  padding-bottom: 50px;
-}
-
-.bg-midgrey {
   background-color: #f1f1f1;
 }
 
@@ -177,7 +171,7 @@ ul {
 
 .logo-container {
   background-color: #fff;
-  box-shadow: 0px 1px #c1c1c1;
+  box-shadow: 0px 4px 6px #c1c1c1;
   z-index: 1;
   position: relative;
   padding: 20px;
