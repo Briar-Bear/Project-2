@@ -1,10 +1,25 @@
-.fa-regular, fa-heart {
+.fa-regular, .fa-heart {
     display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
       align-items: center;
       color: black;
   }
+
+
+  .fa-mobile-screen-button {
+    padding: 0px 20px;
+  }
   
 
- 
+ .fa-bars {
+  padding: 0px 20px;
+ }
+
+ .fa-store {
+  padding: 0px 20px;
+ }
+
+ .fa-solid:active {
+   color: $primary-colour;
+ }

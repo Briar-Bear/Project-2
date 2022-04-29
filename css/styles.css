@@ -41,58 +41,49 @@ a {
   text-align: center;
 }
 
-.item:hover {
-  background-color: #9356DC;
+.item:active {
+  border: #fff1fb;
+  background-color: #fff1fb;
 }
 
 .item-1 {
   display: flex;
   padding: 15px 14px;
-  text-decoration: none;
   border-radius: 25px;
   border: solid #f1f1f1 3px;
   background-color: #f1f1f1;
   box-shadow: 0px 3px 7px 0px #d9d9d9;
   align-self: center;
   width: 75%;
-  flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-between;
 }
 
 .item-2 {
   display: flex;
   padding: 15px 14px;
-  text-decoration: none;
   border-radius: 25px;
   border: solid #f1f1f1 3px;
   background-color: #f1f1f1;
   box-shadow: 0px 3px 7px 0px #d9d9d9;
   align-self: center;
   width: 75%;
-  flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-between;
 }
 
 .item-3 {
   display: flex;
   padding: 15px 14px;
-  text-decoration: none;
   border-radius: 25px;
   border: solid #f1f1f1 3px;
   background-color: #f1f1f1;
   box-shadow: 0px 3px 7px 0px #d9d9d9;
   align-self: center;
   width: 75%;
-  flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-between;
 }
 
 .number {
   display: flex;
-  order: 1;
   border: solid #9356DC 2px;
   height: 15px;
   width: 15px;
@@ -262,12 +253,28 @@ ul {
   width: 30%;
 }
 
-.fa-regular, fa-heart {
+.fa-regular, .fa-heart {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
   color: black;
+}
+
+.fa-mobile-screen-button {
+  padding: 0px 20px;
+}
+
+.fa-bars {
+  padding: 0px 20px;
+}
+
+.fa-store {
+  padding: 0px 20px;
+}
+
+.fa-solid:active {
+  color: #9356DC;
 }
 
 .menu-container {
