@@ -1,0 +1,38 @@
+.list-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 15px;
+    width: 100%;
+    
+    &-list-group-item {
+    text-align: center;
+    padding: 15px 14px;
+    border-radius: 25px;
+    border: solid #f1f1f1 3px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 3px 7px 0px #d9d9d9;
+  }
+  
+  &-item:active {
+    border: #fff1fb;
+    background-color: #fff1fb;
+  }
+
+
+  &-number {
+    display: flex;
+    border: solid #9356DC 2px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: #9356DC;
+    color: white;
+    margin-left: -29px;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
