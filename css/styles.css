@@ -55,6 +55,7 @@ a {
 .rest-title {
   margin-left: 20px;
   padding-top: 20px;
+  font-size: 20px;
 }
 
 .restaurant {
@@ -307,15 +308,6 @@ ul {
   padding: 3px;
   justify-content: center;
   align-items: center;
-}
-
-.font {
-  font-weight: 300;
-  font-size: 20px;
-}
-
-.font-small {
-  font-weight: 300;
 }
 
 /*!
