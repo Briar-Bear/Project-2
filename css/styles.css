@@ -197,6 +197,7 @@ ul {
 .logo-menu {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .logo-img-small {
