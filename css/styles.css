@@ -14,6 +14,15 @@
 .order-btn {
   display: flex;
   justify-content: center;
+  width: 180px;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  border-radius: 50px;
+  color: #fff;
+  background: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
+  box-shadow: 6px 7px 7px 0px #d9d9d9;
+  margin: 25px;
 }
 
 body {
@@ -106,6 +115,11 @@ a {
 
 ul {
   list-style: none;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
 }
 
 .font {
