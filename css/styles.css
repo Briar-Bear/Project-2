@@ -259,6 +259,8 @@ ul {
 .menu-container {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .main-menu {
@@ -312,11 +314,13 @@ ul {
   overflow: hidden;
   cursor: pointer;
   display: flex;
+  font-weight: 300;
 }
 .menu-item .menu-item-price {
   display: flex;
   align-items: center;
   padding: 20px;
+  font-weight: bold;
 }
 .menu-item:hover .menu-item-checkmark {
   width: 75px;
@@ -334,13 +338,13 @@ ul {
 }
 .menu-item .menu-item-body .menu-item-content, .menu-item .menu-item-body .menu-item-heading {
   margin: 0;
-  font-size: 15px;
+  font-size: 13px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
 .menu-item .menu-item-body .menu-item-heading {
-  font-size: 17px;
+  font-size: 15px;
 }
 .menu-item .menu-item-checkmark {
   width: 0px;

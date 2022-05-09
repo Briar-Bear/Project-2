@@ -1,6 +1,8 @@
 .menu-container {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .main-menu {
@@ -56,11 +58,13 @@
     overflow: hidden;
     cursor: pointer;
     display: flex;
+    font-weight: 300;
   
     .menu-item-price {
       display: flex;
       align-items: center;
       padding: 20px;
+      font-weight: bold;
     }
   
     &:hover { 
@@ -82,14 +86,14 @@
   
       .menu-item-content, .menu-item-heading {
         margin: 0;
-        font-size: 15px;
+        font-size: 13px;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
       } 
   
       .menu-item-heading{
-        font-size: 17px;
+        font-size: 15px;
       }
     }
   
