@@ -45,5 +45,16 @@
 
   /**desktop 992px **/
 
-  @media (min-width: 992px) {}
+  @media (min-width: 992px) {
+    .list-group {
+      display: flex;
+      flex-direction: row;
+      
+
+      &-item {
+        width: auto;
+      }
+    }
+
+  }
 

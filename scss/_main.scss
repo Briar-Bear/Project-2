@@ -109,22 +109,22 @@ a {
     .choice-container {
       display: flex;
       flex-direction: row;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+      margin-top: 20px;
     }
 
-    .list-group {
+    .column {
       display: flex;
-      flex-direction: row;
-      
 
-      &-list-group-item {
-        width: 0;
-      }
     }
 
-    .font {
-      font-weight: 300;
-      font-size: 15px;
-  }
+    .footer-items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
   }
 
   

@@ -130,19 +130,19 @@ ul {
   .choice-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
-  .list-group {
+  .column {
     display: flex;
-    flex-direction: row;
-  }
-  .list-group-list-group-item {
-    width: 0;
   }
 
-  .font {
-    font-weight: 300;
-    font-size: 15px;
+  .footer-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .font {
@@ -192,6 +192,11 @@ ul {
 
 /** tablets 768px **/
 /**desktop 992px **/
+@media (min-width: 992px) {
+  .card {
+    display: flex;
+  }
+}
 .bg-grey {
   background-color: #f1f1f1;
 }
@@ -254,6 +259,12 @@ ul {
 
 /** tablets 768px **/
 /**desktop 992px **/
+@media (min-width: 992px) {
+  .logo-small {
+    display: flex;
+    justify-content: center;
+  }
+}
 .fa-regular, .fa-heart {
   display: flex;
   flex-direction: row-reverse;
@@ -451,6 +462,15 @@ ul {
 
 /** tablets 768px **/
 /**desktop 992px **/
+@media (min-width: 992px) {
+  .list-group {
+    display: flex;
+    flex-direction: row;
+  }
+  .list-group-item {
+    width: auto;
+  }
+}
 /*!
  * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
