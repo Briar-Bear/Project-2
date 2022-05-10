@@ -25,6 +25,8 @@
   margin: 25px;
 }
 
+/** tablets 768px **/
+/**desktop 992px **/
 body {
   width: 100%;
   font-family: "Roboto", "Shrikhand", sans-serif;
@@ -122,6 +124,27 @@ ul {
   justify-content: center;
 }
 
+/** tablets 768px **/
+/**desktop 992px **/
+@media (min-width: 992px) {
+  .choice-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .list-group {
+    display: flex;
+    flex-direction: row;
+  }
+  .list-group-list-group-item {
+    width: 0;
+  }
+
+  .font {
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
 .font {
   font-weight: 300;
   font-size: 20px;
@@ -131,6 +154,8 @@ ul {
   font-weight: 300;
 }
 
+/** tablets 768px **/
+/**desktop 992px **/
 .card {
   display: block;
   flex-direction: column;
@@ -165,6 +190,8 @@ ul {
   margin: 0;
 }
 
+/** tablets 768px **/
+/**desktop 992px **/
 .bg-grey {
   background-color: #f1f1f1;
 }
@@ -183,6 +210,8 @@ ul {
   border-top-right-radius: 45px;
 }
 
+/** tablets 768px **/
+/**desktop 992px **/
 .logo-img {
   width: 45%;
 }
@@ -195,6 +224,8 @@ ul {
   height: 355px;
 }
 
+/** tablets 768px **/
+/**desktop 992px **/
 .logo-container {
   background-color: #fff;
   box-shadow: 0px 4px 6px #c1c1c1;
@@ -221,6 +252,8 @@ ul {
   width: 30%;
 }
 
+/** tablets 768px **/
+/**desktop 992px **/
 .fa-regular, .fa-heart {
   display: flex;
   flex-direction: row-reverse;
@@ -256,6 +289,8 @@ ul {
   padding: 7px;
 }
 
+/** tablets 768px **/
+/**desktop 992px **/
 .menu-container {
   display: flex;
   flex-direction: column;
@@ -375,6 +410,8 @@ ul {
     transform: rotateX(0);
   }
 }
+/** tablets 768px **/
+/**desktop 992px **/
 .list-group {
   display: flex;
   flex-direction: column;
@@ -412,6 +449,8 @@ ul {
   align-items: center;
 }
 
+/** tablets 768px **/
+/**desktop 992px **/
 /*!
  * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

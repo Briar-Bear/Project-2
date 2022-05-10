@@ -97,3 +97,34 @@ a {
     display: flex;
     justify-content: center;
   }
+
+  /** tablets 768px **/
+
+  @media (min-width: 768px) {}
+
+  /**desktop 992px **/
+
+  @media (min-width: 992px) {
+    
+    .choice-container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .list-group {
+      display: flex;
+      flex-direction: row;
+      
+
+      &-list-group-item {
+        width: 0;
+      }
+    }
+
+    .font {
+      font-weight: 300;
+      font-size: 15px;
+  }
+  }
+
+  
