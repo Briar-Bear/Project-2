@@ -264,6 +264,10 @@ ul {
     display: flex;
     justify-content: center;
   }
+
+  .logo-menu {
+    justify-content: center;
+  }
 }
 .fa-regular, .fa-heart {
   display: flex;
