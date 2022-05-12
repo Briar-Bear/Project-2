@@ -40,4 +40,13 @@
 
    /**desktop 992px **/
  
-   @media (min-width: 992px) {}
+   @media (min-width: 992px) {
+
+    .fa-heart {
+      display: none;
+    }
+
+    .fa-arrow-left {
+      display: none;
+    }
+   }

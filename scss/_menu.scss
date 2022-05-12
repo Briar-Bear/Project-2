@@ -136,4 +136,26 @@
 
   /**desktop 992px **/
 
-  @media (min-width: 992px) {}
+  @media (min-width: 992px) {
+
+    .menu-container {
+      flex-direction: row;
+      gap: 50px;
+      justify-content: center;
+
+      &-menu-courses  {
+        display: inline-flex;
+        margin-left: 125px;
+  
+        &-menu-food-desserts {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+        }
+      }
+
+      &-menu-food {
+        width: 35%;
+      }
+    }
+  }

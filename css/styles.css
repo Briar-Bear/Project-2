@@ -135,6 +135,12 @@ ul {
     margin-top: 20px;
   }
 
+  .title {
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
   .column {
     display: flex;
   }
@@ -306,6 +312,15 @@ ul {
 
 /** tablets 768px **/
 /**desktop 992px **/
+@media (min-width: 992px) {
+  .fa-heart {
+    display: none;
+  }
+
+  .fa-arrow-left {
+    display: none;
+  }
+}
 .menu-container {
   display: flex;
   flex-direction: column;
@@ -427,6 +442,25 @@ ul {
 }
 /** tablets 768px **/
 /**desktop 992px **/
+@media (min-width: 992px) {
+  .menu-container {
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+  }
+  .menu-container-menu-courses {
+    display: inline-flex;
+    margin-left: 125px;
+  }
+  .menu-container-menu-courses-menu-food-desserts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .menu-container-menu-food {
+    width: 35%;
+  }
+}
 .list-group {
   display: flex;
   flex-direction: column;
