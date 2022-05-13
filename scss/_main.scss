@@ -98,6 +98,11 @@ a {
     justify-content: center;
   }
 
+  .underline {
+    border-bottom: 2px solid $tertiary-colour;
+    width: 40px;
+  }
+
   /** tablets 768px **/
 
   @media (min-width: 768px) {}
