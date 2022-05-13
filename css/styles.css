@@ -63,6 +63,16 @@ a {
   flex-direction: column;
 }
 
+.title {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  font-family: "Shrikhand", sans-serif;
+}
+
 .rest-title {
   margin-left: 20px;
   padding-top: 20px;
@@ -97,12 +107,16 @@ a {
 }
 
 .footer-container {
-  display: flex;
+  display: flex .footer-container -items;
+  display-padding: 0;
+  display-display: flex;
+  display-flex-direction: column;
 }
 
 .bottom-column {
-  padding-left: 15px;
-  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
 }
 
 .menu-items {
@@ -252,6 +266,10 @@ ul {
   width: 45%;
 }
 
+.logo-small {
+  padding-top: 15px;
+}
+
 .header-img {
   width: 100%;
 }
@@ -328,11 +346,11 @@ ul {
 }
 
 .fa-utensils {
-  padding: 10px;
+  padding: 0px;
 }
 
 .fa-handshake-angle {
-  padding: 7px;
+  padding: 0px;
 }
 
 /** tablets 768px **/
@@ -369,16 +387,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-
-.title {
-  margin-left: 20px;
-  margin-right: 20px;
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  font-family: "Shrikhand", sans-serif;
 }
 
 .menu-txt {
