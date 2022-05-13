@@ -105,11 +105,16 @@ a {
   /**desktop 992px **/
 
   @media (min-width: 992px) {
+
+    .container {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
     
     .choice-container {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
       margin-bottom: 20px;
       margin-top: 20px;
     }
@@ -120,9 +125,21 @@ a {
       width: 100%;
     }
 
-    .column {
-      display: flex;
+    .rest-title {
+      margin-left: 0;
+    }
 
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -15px;
+    }
+
+    .column {
+      width: 50%;
+      padding: 10px;
+      flex: 0 0 auto;
+      box-sizing: border-box;
     }
 
     .footer-items {
