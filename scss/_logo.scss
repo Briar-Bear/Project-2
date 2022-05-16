@@ -42,8 +42,15 @@
       }
 
       .logo-menu {
-        justify-content: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -350px;
       }
+
+      .logo-img {
+        width: 200px;
+      }
+
     }
   
   
