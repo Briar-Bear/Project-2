@@ -339,30 +339,24 @@ ul {
   color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
 }
 
-.fa-regular, .fa-heart {
-  animation: fade1 1s;
+input {
+  display: none;
 }
 
-.fa-solid {
-  animation: fade2 1s;
+.fas {
+  background: radial-gradient(circle, #9356dc 0%, #ff79da 85%);
+  background-clip: text;
 }
 
-@keyframes fade1 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+input:checked + label .far {
+  display: none;
 }
-@keyframes fade2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+
+input:checked + label .fas {
+  display: inline-block;
+  opacity: 1;
 }
+
 .fa-mobile-screen-button {
   padding: 0px 20px;
   color: #777575;

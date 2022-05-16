@@ -1,44 +1,34 @@
 .fa-regular, .fa-heart {
-    display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      align-items: center;
-  }
-
-.fa-solid {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-  color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
 }
 
-  .fa-regular, .fa-heart{
-    animation:fade1 1s;
-  }
-  
-  .fa-solid {
-    animation:fade2 1s;
-  }
-  
-  
-  @keyframes fade1 {
-    0% {
-      opacity: 0;
-    }
-    100% {
-     opacity: 1;
-    }
-  }
-  
-  @keyframes fade2 {
-    0% {
-      opacity: 0;
-    }
-    100% {
-     opacity: 1;
-    }
-  }
+.fa-solid {
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
+}
+
+
+input {
+	display: none;
+}
+.fas {
+	background: radial-gradient(circle, #9356dc 0%, #ff79da 85%);
+	background-clip: text;
+}
+input:checked + label .far {
+	display: none;
+	
+}
+input:checked + label .fas {
+	display: inline-block;
+  opacity: 1;
+}
 
   
 
