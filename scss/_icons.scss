@@ -14,18 +14,24 @@ color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
 }
 
 
+
 input {
 	display: none;
 }
-.fas {
-	background: radial-gradient(circle, #9356dc 0%, #ff79da 85%);
+
+.empty-heart {
+  color: $primary-colour
+}
+
+.full-heart {
+  opacity: 0;
 	background-clip: text;
 }
-input:checked + label .far {
+input:checked + label .empty-heart {
 	display: none;
 	
 }
-input:checked + label .fas {
+input:checked + label .full-heart {
 	display: inline-block;
   opacity: 1;
 }
