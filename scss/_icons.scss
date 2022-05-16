@@ -3,8 +3,44 @@
       flex-direction: row-reverse;
       justify-content: space-between;
       align-items: center;
-      color: black;
   }
+
+.fa-solid {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);;
+}
+
+  .fa-regular, .fa-heart{
+    animation:fade1 1s;
+  }
+  
+  .fa-solid {
+    animation:fade2 1s;
+  }
+  
+  
+  @keyframes fade1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+     opacity: 1;
+    }
+  }
+  
+  @keyframes fade2 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+     opacity: 1;
+    }
+  }
+
+  
 
   .fa-mobile-screen-button {
     padding: 0px 20px;
@@ -40,13 +76,4 @@
 
    /**desktop 992px **/
  
-   @media (min-width: 992px) {
-
-    .fa-heart {
-      display: none;
-    }
-
-    .fa-arrow-left {
-      display: none;
-    }
-   }
+   @media (min-width: 992px) {}
