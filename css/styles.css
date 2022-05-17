@@ -144,6 +144,15 @@ ul {
 }
 
 /** tablets 768px **/
+@media (min-width: 768px) {
+  .rest-title {
+    text-align: center;
+  }
+
+  .bottom-column {
+    text-align: center;
+  }
+}
 /**desktop 992px **/
 @media (min-width: 992px) {
   .container {
@@ -307,6 +316,11 @@ ul {
 }
 
 /** tablets 768px **/
+@media (min-width: 768px) {
+  .logo-menu {
+    justify-content: center;
+  }
+}
 /**desktop 992px **/
 @media (min-width: 992px) {
   .logo-small {

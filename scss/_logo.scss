@@ -30,7 +30,12 @@
 
     /** tablets 768px **/
 
-    @media (min-width: 768px) {}
+    @media (min-width: 768px) {
+
+      .logo-menu {
+        justify-content: center;
+      }
+    }
 
     /**desktop 992px **/
   
