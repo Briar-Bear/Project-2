@@ -330,8 +330,7 @@ ul {
 
   .logo-menu {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: -350px;
+    justify-content: center;
   }
 
   .logo-img {
