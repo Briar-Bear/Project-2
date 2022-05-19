@@ -8,11 +8,11 @@ You have just been recruited at Ohmyfood as a junior developer. Congratulations!
 
 Ohmyfood is a new startup that wants to make a name for itself in the restaurant business. The objective is to develop a 100% mobile-friendly site that lists the menus of gourmet restaurants. In addition to having a classic reservation system, customers will be able to select the dishes they want for their meal so that they are ready when they arrive. No more wait times in restaurants!
 
-My objectives were to make this website using HTML and a CSS extension, Sass.
+My objectives were to make this website using HTML and a CSS extension called Sass.
 
 I was also required to version my code through Git and Git-Hub with frequent commits so that I can follow the progress of my code and more easily publish the website online.
 
-I have used different CSS animations as well. Such as a short loading screen upon opening a menu followed by the food choices transitioning on screen, and I've transitioned empty heart icons to full heart icons when clicking on them.
+I have used different CSS animations as well. Such as a short loading screen upon opening a menu followed by the food choices transitioning on screen with mint green check boxes you can hover over or activate through clicking, and I've also transitioned empty heart icons to full heart icons when clicking on them.
 
 Here is a list of skills I've learned from doing this project:
 
