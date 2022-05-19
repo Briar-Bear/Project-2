@@ -20,4 +20,9 @@
 
     /**desktop 992px **/
   
-    @media (min-width: 992px) {}
+    @media (min-width: 992px) {
+
+      .main-img-enchanted {
+        height: auto;
+      } 
+    }
