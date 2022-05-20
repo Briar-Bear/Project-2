@@ -120,10 +120,15 @@ a {
     justify-content: center;
   }
 
+  .menu-courses {
+    margin-bottom: 0;
+  }
+
   .underline {
     border-bottom: 2px solid $tertiary-colour;
     width: 40px;
     margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   /** tablets 768px **/
