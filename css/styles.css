@@ -85,18 +85,6 @@ a {
   font-size: 20px;
 }
 
-.restaurant {
-  display: block;
-  flex-direction: column;
-  align-self: center;
-  border-radius: 10px;
-  background-color: #fff;
-  width: 90%;
-  box-shadow: 0px 3px 7px 0px #d9d9d9;
-  margin-bottom: 15px;
-  position: relative;
-}
-
 .new {
   position: absolute;
   top: 10px;
@@ -113,10 +101,7 @@ a {
 }
 
 .footer-container {
-  display: flex .footer-container -items;
-  display-padding: 0;
-  display-display: flex;
-  display-flex-direction: column;
+  display: flex;
 }
 
 .bottom-column {
@@ -396,6 +381,7 @@ ul {
   transition: 1.5s ease;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
@@ -475,13 +461,11 @@ input:checked + label .full-heart {
   box-shadow: 0px 3px 7px 0px #d9d9d9;
   width: 85%;
 }
-
-.menu-food {
+.main-menu-food {
   display: flex;
   flex-direction: column;
 }
-
-.menu-txt {
+.main-menu-txt {
   display: flex;
   gap: 100px;
 }
@@ -500,7 +484,7 @@ input:checked + label .full-heart {
   display: flex;
   font-weight: 300;
 }
-.menu-item .menu-item-price {
+.menu-item-price {
   display: flex;
   align-items: center;
   padding: 20px;
@@ -520,17 +504,17 @@ input:checked + label .full-heart {
   display: flex;
   flex-direction: column;
 }
-.menu-item .menu-item-body .menu-item-content, .menu-item .menu-item-body .menu-item-heading {
+.menu-item .menu-item-body-content, .menu-item .menu-item-body .menu-item-heading {
   margin: 0;
   font-size: 13px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
-.menu-item .menu-item-body .menu-item-heading {
+.menu-item .menu-item-body-heading {
   font-size: 15px;
 }
-.menu-item .menu-item-checkmark {
+.menu-item-checkmark {
   width: 0px;
   background: #99E2D0;
   transition: width 1s;
@@ -542,7 +526,7 @@ input:checked + label .full-heart {
   align-items: center;
   height: 100%;
 }
-.menu-item .menu-item-checkmark-icon {
+.menu-item-checkmark-icon {
   transform: rotate(360deg);
   transition: transform 1s;
   color: white;
