@@ -13,19 +13,20 @@ align-items: center;
 color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
 }
 
-#heart-1 {
+.heart-1 {
   position: relative;
   width: 16px;
 }
 
 
-#id:hover .empty-heart {
+.heart-1:hover .empty-heart {
   opacity: 1;
-  transition: background-color 1s ease;
-  background-color: purple;
+  transition: 1.5s ease;
+  color: $mix-colour;
+  background-color: $mix-colour;
 }
 
-#id:hover .full-heart {
+.heart-1:hover .full-heart {
   opacity: 0;
 }
 
