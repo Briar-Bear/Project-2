@@ -309,7 +309,6 @@ ul {
 .logo-container {
   background-color: #fff;
   box-shadow: 0px 4px 6px #c1c1c1;
-  z-index: 1;
   position: relative;
   padding: 20px;
 }
