@@ -1,5 +1,5 @@
 .logo-img {
-    width: 45%;
+    width: 375px;
   }
 
   .logo-small {
@@ -22,7 +22,9 @@
   
     @media (min-width: 992px) {
 
-      .main-img-enchanted {
-        height: auto;
+      .header-img {
+        height: 335px;
+        object-fit: cover;
+        object-position: center;
       } 
     }
