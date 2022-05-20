@@ -119,6 +119,10 @@ a {
   padding-left: 10px;
 }
 
+.footer-items {
+  padding-left: 0;
+}
+
 .menu-items {
   padding: 0;
   gap: 5px;
@@ -171,7 +175,6 @@ ul {
   .title {
     justify-content: center;
     gap: 10px;
-    width: 100%;
   }
 
   .rest-title {
@@ -195,6 +198,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 0;
   }
 }
 .font {
@@ -436,7 +440,6 @@ input:checked + label .full-heart {
 .menu-food {
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 
 .menu-txt {
@@ -512,6 +515,7 @@ input:checked + label .full-heart {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   opacity: 0;
+  margin-bottom: 10px;
 }
 .menu-fade-fade-1 {
   animation-delay: 0.1s;
@@ -630,6 +634,8 @@ input:checked + label .full-heart {
 /**desktop 992px **/
 @media (min-width: 992px) {
   .menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     flex-direction: row;
     gap: 50px;
     justify-content: center;
@@ -643,8 +649,10 @@ input:checked + label .full-heart {
     flex-direction: row;
     justify-content: space-evenly;
   }
-  .menu-container-menu-food {
-    width: 35%;
+
+  .menu-food {
+    width: 100%;
+    flex: 0 0 auto;
   }
 }
 .list-group {

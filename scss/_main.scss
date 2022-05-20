@@ -1,3 +1,5 @@
+
+
 body {
   width: 100%;
   font-family: 'Roboto', 'Shrikhand', sans-serif;
@@ -95,7 +97,9 @@ a {
 }
 
 
-
+.footer-items {
+  padding-left: 0;
+}
   
   .menu-items {
     padding: 0;
@@ -154,7 +158,6 @@ a {
     .title {
       justify-content: center;
       gap: 10px;
-      width: 100%;
     }
 
     .rest-title {
@@ -178,7 +181,9 @@ a {
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding-left: 0;
     }
+
 
   }
 
