@@ -25,3 +25,7 @@ Here is a list of skills I've learned from doing this project:
 4. Develop a navigation structure for a website
 
 5. Track a code project with version control on GitHub
+
+here's a link to my webpage:
+
+http://127.0.0.1:5500/index.html
