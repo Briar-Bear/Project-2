@@ -461,11 +461,11 @@ input:checked + label .full-heart {
   box-shadow: 0px 3px 7px 0px #d9d9d9;
   width: 85%;
 }
-.main-menu-food {
+.main-menu .menu-item-food {
   display: flex;
   flex-direction: column;
 }
-.main-menu-txt {
+.main-menu .menu-item-txt {
   display: flex;
   gap: 100px;
 }
@@ -484,7 +484,7 @@ input:checked + label .full-heart {
   display: flex;
   font-weight: 300;
 }
-.menu-item-price {
+.menu-item .menu-item-price {
   display: flex;
   align-items: center;
   padding: 20px;
@@ -504,17 +504,17 @@ input:checked + label .full-heart {
   display: flex;
   flex-direction: column;
 }
-.menu-item .menu-item-body-content, .menu-item .menu-item-body .menu-item-heading {
+.menu-item .menu-item-body .menu-item-content, .menu-item .menu-item-body .menu-item-heading {
   margin: 0;
   font-size: 13px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
-.menu-item .menu-item-body-heading {
+.menu-item .menu-item-body .menu-item-heading {
   font-size: 15px;
 }
-.menu-item-checkmark {
+.menu-item .menu-item-checkmark {
   width: 0px;
   background: #99E2D0;
   transition: width 1s;
@@ -526,7 +526,7 @@ input:checked + label .full-heart {
   align-items: center;
   height: 100%;
 }
-.menu-item-checkmark-icon {
+.menu-item .menu-item-checkmark-icon {
   transform: rotate(360deg);
   transition: transform 1s;
   color: white;
