@@ -24,6 +24,7 @@ color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
   transition: 1.5s ease;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), to(#ff79da));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
   
