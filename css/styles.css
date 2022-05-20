@@ -380,8 +380,19 @@ ul {
   color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
 }
 
-.div:hover .full-heart {
+#heart-1 {
+  position: relative;
+  width: 16px;
+}
+
+#id:hover .empty-heart {
   opacity: 1;
+  transition: background-color 1s ease;
+  background-color: purple;
+}
+
+#id:hover .full-heart {
+  opacity: 0;
 }
 
 input {
@@ -389,21 +400,23 @@ input {
 }
 
 .empty-heart {
-  color: #9356DC;
+  opacity: 0;
 }
 
 .full-heart {
-  opacity: 0;
+  opacity: 1;
   background-clip: text;
+  position: absolute;
 }
 
 input:checked + label .empty-heart {
-  display: none;
+  display: inline-block;
+  opacity: 1;
 }
 
 input:checked + label .full-heart {
-  display: inline-block;
-  opacity: 1;
+  display: none;
+  opacity: 0;
 }
 
 .fa-mobile-screen-button {
