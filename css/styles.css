@@ -37,6 +37,12 @@ a {
   text-decoration: none;
 }
 
+.title-container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
 .nav-container {
   display: flex;
   flex-direction: column;
@@ -165,6 +171,12 @@ ul {
 }
 /**desktop 992px **/
 @media (min-width: 992px) {
+  .title-container {
+    display: flex;
+    align-items: center;
+    gap: 550px;
+  }
+
   .container {
     max-width: 800px;
     margin-left: auto;
