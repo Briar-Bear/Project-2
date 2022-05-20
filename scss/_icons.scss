@@ -22,8 +22,8 @@ color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
 .heart-1:hover .empty-heart {
   opacity: 1;
   transition: 1.5s ease;
-  color: $mix-colour;
-  background-color: $mix-colour;
+  color: rgba(147,86,220,1);
+  color: linear-gradient(351deg, rgba(255,121,218,1) 34%, rgba(147,86,220,1) 71%);
 }
 
 .heart-1:hover .full-heart {

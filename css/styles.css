@@ -175,6 +175,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 550px;
+    padding-left: 5px;
   }
 
   .container {
@@ -351,6 +352,7 @@ ul {
 @media (min-width: 768px) {
   .logo-menu {
     justify-content: center;
+    margin-left: 195px;
   }
 }
 /**desktop 992px **/
@@ -363,6 +365,10 @@ ul {
   .logo-menu {
     display: flex;
     justify-content: center;
+  }
+
+  .logo-menu {
+    margin-left: 175px;
   }
 }
 .fa-regular, .fa-heart {
@@ -388,8 +394,8 @@ ul {
 .heart-1:hover .empty-heart {
   opacity: 1;
   transition: 1.5s ease;
-  color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
-  background-color: linear-gradient(-7deg, #9356dc 0%, #ff79da 85%);
+  color: #9356dc;
+  color: linear-gradient(351deg, #ff79da 34%, #9356dc 71%);
 }
 
 .heart-1:hover .full-heart {
@@ -621,6 +627,10 @@ input:checked + label .full-heart {
     bottom: auto;
   }
 }
+.logo-box {
+  margin-left: 0px;
+}
+
 .lds-ring {
   display: inline-block;
   position: relative;
